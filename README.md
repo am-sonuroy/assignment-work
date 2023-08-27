@@ -1,4 +1,4 @@
 # A project on github
 
-index.html/style.css - project 1
-index-1.html/index-1.css - project 2
+Login-page.html/Login-page.css - Login page project 
+SignUp-Page.html/SignUp-Page.css - SignUp page project
