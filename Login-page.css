@@ -17,7 +17,7 @@ body {
     width: 400px;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .login-box {
@@ -52,7 +52,8 @@ form {
     transition: border-color 0.2s;
 }
 
-user-box input:focus, .user-box input:valid {
+user-box input:focus,
+ .user-box input:valid {
     border-color: #1e87f0;  
 }
 
@@ -66,7 +67,8 @@ user-box input:focus, .user-box input:valid {
     transition: all 0.2s;
 }
 
-.user-box input:focus ~ label, .user-box input:valid ~ label {
+.user-box input:focus ~ label, 
+.user-box input:valid ~ label {
     top: -20px;
     font-size: 12px;
     color: #1e87f0;
